@@ -4,7 +4,14 @@ import Todos from './components/Todos';
 
 
 function App() {
-  const [todos, setTodos] = useState([{ id:1, title: 'take out the trash'},{id:1, title: 'take out the trash'}]);
+  const [todos, setTodos] = useState([
+    {id:1, 
+    title: 'take out the trash'},
+    {id:2, 
+    title: 'take out the trash'},
+    {id:3, 
+    title: 'take out the trash'},
+  ]);
   return (
     <div className="App">
      <Todos />
