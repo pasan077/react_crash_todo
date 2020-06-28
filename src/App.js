@@ -10,7 +10,7 @@ function App() {
     {id:2, 
     title: 'take out the trash'},
     {id:3, 
-    title: 'take out the trash'},
+    title: 'pay the bills'},
   ]);
   return (
     <div className="App">
