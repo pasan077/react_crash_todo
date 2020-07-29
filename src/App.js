@@ -11,6 +11,7 @@ function App() {
     title: 'take out the trash'},
     {id:3, 
     title: 'pay the bills'},
+    
   ]);
   return (
     <div className="App">
